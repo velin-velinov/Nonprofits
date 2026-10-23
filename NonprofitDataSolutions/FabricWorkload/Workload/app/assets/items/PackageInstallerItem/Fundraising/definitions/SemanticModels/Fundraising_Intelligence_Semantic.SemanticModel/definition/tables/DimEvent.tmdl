@@ -15,7 +15,7 @@ table DimEvent
 
 	column Cost
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 599f18c8-d893-4671-ade6-4439e080d5dc
 		sourceLineageTag: Cost

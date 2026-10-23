@@ -57,7 +57,7 @@ table DimChannel
 
 	column Weight
 		dataType: decimal
-		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 462ebf26-eff7-4f5d-9953-ec1706da9e4c
 		sourceLineageTag: Weight

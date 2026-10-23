@@ -59,7 +59,7 @@ table FactOpportunity
 
 	column ExpectedRevenue
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 332e6e5f-f37e-4455-b259-47730fdac479
 		sourceLineageTag: ExpectedRevenue

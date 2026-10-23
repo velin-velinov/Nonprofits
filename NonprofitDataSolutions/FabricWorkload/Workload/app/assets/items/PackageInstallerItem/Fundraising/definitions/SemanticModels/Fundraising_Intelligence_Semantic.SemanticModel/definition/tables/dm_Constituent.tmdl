@@ -76,7 +76,7 @@ table dm_Constituent
 
 	column LifetimeDonationAmount
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 90b360a2-7191-49ed-910d-f1304ea0ac97
 		sourceLineageTag: LifetimeDonationAmount

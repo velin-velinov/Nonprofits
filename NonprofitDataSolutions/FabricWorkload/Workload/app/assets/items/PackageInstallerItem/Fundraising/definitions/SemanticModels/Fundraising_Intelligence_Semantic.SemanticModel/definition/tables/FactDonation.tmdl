@@ -4,7 +4,7 @@ table FactDonation
 
 	column Amount
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 655f976f-720d-43ab-ac32-29e104d3764c
 		sourceLineageTag: Amount

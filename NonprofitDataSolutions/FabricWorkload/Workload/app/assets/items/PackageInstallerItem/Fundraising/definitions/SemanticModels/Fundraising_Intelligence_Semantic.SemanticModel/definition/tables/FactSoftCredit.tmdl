@@ -48,7 +48,7 @@ table FactSoftCredit
 
 	column SoftCreditAmount
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 0455a37e-5ec7-4809-82f8-7772fda026b8
 		sourceLineageTag: SoftCreditAmount

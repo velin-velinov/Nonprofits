@@ -65,7 +65,7 @@ table DimAddress
 
 	column Latitude
 		dataType: decimal
-		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: 743091a2-5cc5-4740-aa56-0d43fcca69fa
 		sourceLineageTag: Latitude
@@ -78,7 +78,7 @@ table DimAddress
 
 	column Longitude
 		dataType: decimal
-		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: c2831e6f-0855-472b-933f-6891293f9f48
 		sourceLineageTag: Longitude

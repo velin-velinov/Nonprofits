@@ -46,7 +46,7 @@ table DimCampaign
 
 	column Cost
 		dataType: decimal
-		formatString: \$#,0.###############;-\$#,0.###############;\$#,0.###############
+		formatString: #,0 kr;-#,0 kr;#,0 kr
 		sourceProviderType: decimal(18, 4)
 		lineageTag: a7d7f707-fb53-4d87-a9d9-00ac17232a86
 		sourceLineageTag: Cost
